@@ -32,6 +32,7 @@ button {
   display: flex;
   align-items: center;
   gap: 12px;
+  cursor: pointer;
 
   font-family: 'Inter';
   font-weight: 600;
@@ -105,6 +106,7 @@ appearance: none;
   border-radius: 8px;
 
   background: #18181b;
+  cursor: pointer;
 }
 
 input:checked {
