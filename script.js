@@ -19,7 +19,7 @@ function add() {
 }
 
 function save() {
-  localStorage.setItem('NLWSetup@habits', JSON,Stringify(nlwSetup.data))
+  localStorage.setItem('NLWSetup@habits', JSON.Stringify(nlwSetup.data))
 }
 
 const data = JSON.parse(localStorage.getItem("NLWSetup@habits")) || {}
